@@ -29,6 +29,7 @@ module.exports = {
     'react'
   ],
   rules: {
-    'react/react-in-jsx-scope': 'off' // vite does not require you to import React into each component file
+    'react/react-in-jsx-scope': 'off', // vite does not require you to import React into each component file
+    'react/prop-types': 'off' // typescript already checks for prop types
   }
 }
